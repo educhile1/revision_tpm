@@ -40,6 +40,8 @@ Tienes dos formas de hacerlo:
 3.  **Pega en la consola de powershell** pega directamente dentro de la ventana de PowerShell de administrador.
 4.  ¡Presiona **Enter**!
 
+**Valores de SEGURIDAD:** Si alguno es `False` o `Home`, favor reportar al Delegado de Seguridad.
+
 #### Opción B: Por línea de comandos
 Navega hasta la carpeta y ejecútalo:
 ```powershell
@@ -49,6 +51,8 @@ cd "C:\Ruta\A\Tu\Carpeta\scripts"
 
 ![Línea de comandos](images/image.png)
 
+
+**Valores de SEGURIDAD:** Si alguno es `False` o `Home`, favor reportar al Delegado de Seguridad.
 
 ### 4. Revisar los Resultados
 
@@ -65,7 +69,6 @@ El script mostrará en pantalla la siguiente información detallada:
 *   **Memoria RAM Total:** Cantidad en GB instalada.
 *   **Disco (C:):** Tamaño total y espacio libre actual.
 
-*   **Valores de SEGURIDAD:** Si alguno es `False` o `Home`, favor reportar al Delegado de Seguridad.
 
 Presiona cualquier tecla para cerrar la ventana cuando termines.
 
