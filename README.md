@@ -46,12 +46,8 @@ cd "C:\Ruta\A\Tu\Carpeta\scripts"
 .\Check-Compatibility.ps1
 ```
 
-#### Opción C: Ejecución Rápida (Estilo Wget)
-Si tienes el archivo en un servidor o repositorio (ej. GitHub), puedes ejecutarlo directamente en una sola línea sin necesidad de descargarlo manualmente:
+![Línea de comandos](images/image.png)
 
-```powershell
-powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercontent.com/educhile1/revision_tpm/main/scripts/Check-Compatibility.ps1 | iex"
-```
 
 ### 4. Revisar los Resultados
 
