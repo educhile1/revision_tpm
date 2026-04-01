@@ -55,9 +55,20 @@ powershell -ExecutionPolicy Bypass -Command "iwr -useb https://raw.githubusercon
 
 ### 4. Revisar los Resultados
 
-El script mostrará en pantalla si el TPM está listo, la versión del SO y si el Secure Boot está activo.
-*   **True / Activo:** Todo está correcto.
-*   **False / No soportado:** Favor reportar al Delegado de Seguridad.
+El script mostrará en pantalla la siguiente información detallada:
+
+**[SEGURIDAD]**
+*   **TPM Presente y Listo:** Debe ser `True`.
+*   **Versión TPM:** Debe ser `2.0`.
+*   **Sistema Operativo:** Detalla la edición de Windows detectada.
+*   **Secure Boot Activo:** Debe ser `True`.
+
+**[HARDWARE]**
+*   **Procesador:** Modelo exacto de la CPU.
+*   **Memoria RAM Total:** Cantidad en GB instalada.
+*   **Disco (C:):** Tamaño total y espacio libre actual.
+
+*   **Valores de SEGURIDAD:** Si alguno es `False` o `Home`, favor reportar al Delegado de Seguridad.
 
 Presiona cualquier tecla para cerrar la ventana cuando termines.
 
