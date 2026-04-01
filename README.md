@@ -36,8 +36,9 @@ Tienes dos formas de hacerlo:
 
 #### Opción A: Arrastrar y soltar (Más fácil)
 1.  Busca el archivo `Check-Compatibility.ps1` en tu carpeta de descargas o donde lo tengas guardado.
-2.  **Arrastra el archivo** directamente dentro de la ventana de PowerShell de administrador.
-3.  ¡Presiona **Enter**!
+2.  **Abre y copia todo lo que tiene el archivo** .
+3.  **Pega en la consola de powershell** pega directamente dentro de la ventana de PowerShell de administrador.
+4.  ¡Presiona **Enter**!
 
 #### Opción B: Por línea de comandos
 Navega hasta la carpeta y ejecútalo:
